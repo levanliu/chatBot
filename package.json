@@ -1,5 +1,5 @@
 {
-  "name": "democc",
+  "name": "chat",
   "version": "1.0.0",
   "description": "",
   "type": "module",
@@ -18,11 +18,14 @@
     "dotenv": "^16.3.1",
     "openai": "^3.3.0",
     "ora": "^6.3.1",
+    "path": "^0.12.7",
     "readline-sync": "^1.4.10",
-    "rollup-plugin-add-shebang": "^0.3.1"
+    "rollup-plugin-add-shebang": "^0.3.1",
+    "tslib": "^2.6.2"
   },
   "devDependencies": {
     "@rollup/plugin-typescript": "^11.1.2",
+    "@types/node": "^20.8.9",
     "rollup": "^3.26.2"
   }
 }

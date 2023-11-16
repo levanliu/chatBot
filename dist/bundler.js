@@ -32,7 +32,7 @@ function askQuestion() {
 let openAi;
 function initBot() {
     openAi = new OpenAIApi(new Configuration({
-        basePath: "https://api.chatanywhere.cn/v1",
+        basePath: "https://api.chatanywhere.com.cn/v1",
         apiKey: process.env.OPEN_API_KEY,
     }));
 }
