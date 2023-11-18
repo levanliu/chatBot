@@ -24,7 +24,7 @@ function addBotMessage(message) {
 }
 
 function askQuestion() {
-    const userInput = readlineSync.question(colors.rainbow("You: "));
+    const userInput = readlineSync.question(colors.rainbow("Q: "));
     addUserMessage(userInput);
     return userInput;
 }
@@ -43,7 +43,7 @@ async function botAnswer() {
     });
     const answer = chatCompletion.data.choices[0].message?.content;
     addBotMessage(answer);
-    console.log(colors.bold.red("Bot: "), answer);
+    console.log(colors.bold.red("A: "), answer);
 }
 
 let spinner;

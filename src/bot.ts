@@ -22,5 +22,5 @@ export async function botAnswer() {
 
   addBotMessage(answer!);
 
-  console.log(colors.bold.red("Bot: "), answer);
+  console.log(colors.bold.red("A: "), answer);
 }
